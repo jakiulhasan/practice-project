@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.lettermark{
+    color: white;
+    font-weight: bold;
+}
+
+.navLeftStyle{
+    padding: 4px 8px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+}
+
+.Name{
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+
+.items li{
+    padding: 0px 20px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 6px;
+    border-radius: 16px;    
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;}
+
+.welcomeMsg{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+    color: #344C36;
+}
+
+.contactME{
+    padding: 4px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #344C36;
+    border-radius: 15px;
+}
+.navcolor{
+    background-color: #344C36;
+}
+
+.leftbody, .rightbody{
+    width: 50%;
+    text-align: justify;
+    padding: 30px;
+}
+
+.fullbody{
+    display: flex;
+}
+
+.HiGreeting{
+    padding: 7px;
+    border: 1px solid #344C36;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px orange;
+    margin-bottom: 20px;
+}
+
+.introName, .profession{
+    font-size: 45px;
+    font-weight: bold;
+    color: #344C36;
+}
+
+.introName i{
+    color: orange;
+    text-decoration: underline;
+}
+
+.description{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.doblebutton button{
+    padding: 15px;
+    border-radius: 25px;   
+}
+
+.buttonExtend{
+    width: 185px;
+    border-radius: 25px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+
+}
+.playImage{
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+}
+
+.viewportbtn{
+    background-color: #344C36;
+    color: white;
+    border: none;
+}
+
+.hirebtn{
+    background-color: white;
+    margin-left: 30px;
+
+}
+
+.doblebutton{
+    display: flex;
+    margin-top: 30px;
+}
+.linebreakstyle{
+    background-color: orange;
+    padding: 10px;
+    color: #344C36;
+}
+.linebreakstyle ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linebreakstyle ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
